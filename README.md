@@ -82,7 +82,6 @@ python train_fgsm_at_cifar10_TPAP.py
 ````
 python train_pgd_at_cifar10.py
 ````
-<br />
 <br />我们提供了TPAP在其它攻击方法下的测试代码，运行：
 <br />We provide test code for TPAP running under other attack methods:
 ````
