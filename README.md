@@ -1,6 +1,6 @@
 # Robust Overfitting Does Matter: Test-Time Adversarial Purification With FGSM (CVPR 2024)
 ## Introduction
-<br />\bullet下面是这篇文章的代码，主要是用 PyTorch 编写的。
+<br />\\bullet下面是这篇文章的代码，主要是用 PyTorch 编写的。
 <br />\bulletHere's the code for the article, written primarily in PyTorch.
 ## Usage
 ### Data Preparation
