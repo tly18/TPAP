@@ -54,7 +54,7 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.
 <br /><br />Type in the linux terminal:
 ````
 pip install torchattacks
-pip install advertorch=0.2.3 -i https://pypi.tuna.tsinghua.edu.cn/simple/
+pip install advertorch=0.2.3 -i text(https://pypi.tuna.tsinghua.edu.cn/simple/)
 ````
 
 ### Instructions for the use of FWA
