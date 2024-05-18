@@ -43,7 +43,8 @@ conda create -n tly18 python=3.8.13
 <br />**2. Deployment**
 + 进入pytorch官网 https://pytorch.org/get-started/previous-versions/ 确定安装版本。
 <br />Go to the pytorch website https://pytorch.org/get-started/previous-versions/ to determine the version to install.
-<br />
+
+
 + 在linux终端输入：
 <br />Type in the linux terminal:
 ````
@@ -67,10 +68,12 @@ https://github.com/tly18/TPAP/blob/main/FWA/README.md
 ### Train and Test
 + 我们提供了CIFAR-10、CIFAR-100、SVHN、TinyImageNet四个数据集的TPAP训练方法。
 <br />We provide TPAP training methods for four datasets, CIFAR-10, CIFAR-100, SVHN, and TinyImageNet.
-<br />
+
+
 + 除CIFAR-10在./TPAP目录运行外，CIFAR-100、SVHN、TinyImageNet数据集需要进入各自的目录进行训练。
 <br />With the exception of CIFAR-10 which is run in the . /TPAP directory to run, the CIFAR-100, SVHN, and TinyImageNet datasets require access to their respective directories for training.
-<br />
+
+
 + 例如，训练CIFAR-10：
 <br />For example, training CIFAR-10:
 ````
