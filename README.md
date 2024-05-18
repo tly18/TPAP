@@ -23,13 +23,13 @@ python val_data.py
 ### Environment Configuration
 + Pytorch 环境包括 python 3.8.13、pytorch 1.7.1、CUDA 9.2、torchvision 0.8.2、advertorch 0.2.3、torchattacks 3.3.0 和 matplotlib 3.2.2。
 + The pytorch environment includes python 3.8.13, pytorch 1.7.1, CUDA 9.2, torchvision 0.8.2, advertorch 0.2.3, torchattacks 3.3.0, matplotlib 3.2.2.
-<br />
+
 + 下面是在线使用 conda 和 pip 配置环境的简单示例。
 + The following is a simple example of configuring an environment online using conda and pip.
-<br />
+
 + linux环境下安装自己的工作环境 python+pytorch+torchvision。
 + Install your own working environment python+pytorch+torchvision in linux environment.
-<br />
+
 <br />**1、创建环境**
 <br />**1. Create environment**
 <br />在linux终端输入： 
