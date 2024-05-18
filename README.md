@@ -16,6 +16,7 @@ CIFAR10(root='./cifar10/', train=False, download=False, transform=transform_test
 https://github.com/tly18/TPAP/blob/main/TPAP_tiny_imagenet/val_data.py
 ````
 <br />在pytorch环境下的linux终端运行文件：
+<br />Run the file in a linux terminal in a pytorch environment:
 ````
 python val_data.py
 ````
@@ -66,7 +67,7 @@ https://github.com/tly18/TPAP/blob/main/FWA/README.md
 ````
 
 ### Train and Test
-+ 我们提供了CIFAR-10、CIFAR-100、SVHN、TinyImageNet四个数据集的TPAP训练方法。
+1、我们提供了CIFAR-10、CIFAR-100、SVHN、TinyImageNet四个数据集的TPAP训练方法。
 <br />We provide TPAP training methods for four datasets, CIFAR-10, CIFAR-100, SVHN, and TinyImageNet.
 
 
@@ -79,15 +80,15 @@ https://github.com/tly18/TPAP/blob/main/FWA/README.md
 ````
 python train_fgsm_at_cifar10_TPAP.py
 ````
-<br />与Trades、MART方法结合时，需要在文件中修改训练的损失函数。
+<br />2、与Trades、MART方法结合时，需要在文件中修改训练的损失函数。
 <br />When combined with the Trades, MART method, the loss function for training needs to be modified in the file.
 <br />
-<br />我们提供了PGD对抗训练的代码，运行：
+<br />3、我们提供了PGD对抗训练的代码，运行：
 <br />We provide code for PGD adversarial training that runs:
 ````
 python train_pgd_at_cifar10.py
 ````
-<br />我们提供了TPAP在其它攻击方法下的测试代码，运行：
+<br />4、我们提供了TPAP在其它攻击方法下的测试代码，运行：
 <br />We provide test code for TPAP running under other attack methods:
 ````
 python TEST_other_attack.py
