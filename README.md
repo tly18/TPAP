@@ -1,7 +1,7 @@
 # Robust Overfitting Does Matter: Test-Time Adversarial Purification With FGSM (CVPR 2024)
 ## Introduction
 + 下面是这篇文章的代码，主要是用 PyTorch 编写的。
-+ Here's the code for the article, written primarily in PyTorch.
+<br />Here's the code for the article, written primarily in PyTorch.
 ## Usage
 ### Data Preparation
 <br />1、加载数据集时，如果数据集不存在，将下述的代码中**download=False**修改为**download=True**。
@@ -41,10 +41,10 @@ conda create -n tly18 python=3.8.13
 ````
 <br />**2、安装部署**
 <br />**2. Deployment**
-<br />进入pytorch官网 https://pytorch.org/get-started/previous-versions/ 确定安装版本。
++ 进入pytorch官网 https://pytorch.org/get-started/previous-versions/ 确定安装版本。
 <br />Go to the pytorch website https://pytorch.org/get-started/previous-versions/ to determine the version to install.
 <br />
-<br />在linux终端输入：
++ 在linux终端输入：
 <br />Type in the linux terminal:
 ````
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.2 -c pytorch
@@ -65,13 +65,13 @@ https://github.com/tly18/TPAP/blob/main/FWA/README.md
 ````
 
 ### Train and Test
-<br />我们提供了CIFAR-10、CIFAR-100、SVHN、TinyImageNet四个数据集的TPAP训练方法。
++ 我们提供了CIFAR-10、CIFAR-100、SVHN、TinyImageNet四个数据集的TPAP训练方法。
 <br />We provide TPAP training methods for four datasets, CIFAR-10, CIFAR-100, SVHN, and TinyImageNet.
 <br />
-<br />除CIFAR-10在./TPAP目录运行外，CIFAR-100、SVHN、TinyImageNet数据集需要进入各自的目录进行训练。
++ 除CIFAR-10在./TPAP目录运行外，CIFAR-100、SVHN、TinyImageNet数据集需要进入各自的目录进行训练。
 <br />With the exception of CIFAR-10 which is run in the . /TPAP directory to run, the CIFAR-100, SVHN, and TinyImageNet datasets require access to their respective directories for training.
 <br />
-<br />例如，训练CIFAR-10：
++ 例如，训练CIFAR-10：
 <br />For example, training CIFAR-10:
 ````
 python train_fgsm_at_cifar10_TPAP.py
