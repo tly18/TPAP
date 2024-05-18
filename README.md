@@ -5,13 +5,13 @@
 ## Usage
 ### Data Preparation
 <br />1、加载数据集时，如果数据集不存在，将下述的代码中**download=False**修改为**download=True**。
-<br />1. When loading a dataset, if the dataset does not exist, change download=False to download=True in the following code.
+<br />When loading a dataset, if the dataset does not exist, change download=False to download=True in the following code.
 ````
 CIFAR10(root='./cifar10/', train=True, download=False, transform=transform_train)
 CIFAR10(root='./cifar10/', train=False, download=False, transform=transform_test)
 ````
 <br />2、使用Tiny-ImageNet数据集前参考下面链接，处理val数据。
-<br />2. Refer to the link below before using the Tiny-ImageNet dataset to process the val data.
+<br />Refer to the link below before using the Tiny-ImageNet dataset to process the val data.
 ````
 https://github.com/tly18/TPAP/blob/main/TPAP_tiny_imagenet/val_data.py
 ````
