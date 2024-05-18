@@ -36,7 +36,6 @@ python val_data.py
 ````
 conda create -n tly18 python=3.8.13
 ````
-<br />
 <br />**2、安装部署**
 <br />**2. Deployment**
 <br />进入pytorch官网 https://pytorch.org/get-started/previous-versions/ 确定安装版本。
@@ -59,4 +58,49 @@ pip install advertorch=0.2.3 -i https://pypi.tuna.tsinghua.edu.cn/simple/
 <br />Refer to the FWA method for instructions on how to use the URL link below:
 ````
 https://github.com/tly18/TPAP/blob/main/FWA/README.md
+````
+
+### Train and Test
+<br />我们提供了CIFAR-10、CIFAR-100、SVHN、TinyImageNet四个数据集的TPAP训练方法。
+<br />We provide TPAP training methods for four datasets, CIFAR-10, CIFAR-100, SVHN, and TinyImageNet.
+<br />除CIFAR-10在./TPAP目录运行外，CIFAR-100、SVHN、TinyImageNet数据集需要进入各自的目录进行训练。
+<br />With the exception of CIFAR-10 which is run in the . /TPAP directory to run, the CIFAR-100, SVHN, and TinyImageNet datasets require access to their respective directories for training.
+<br />例如，训练CIFAR-10：
+<br />For example, training CIFAR-10:
+````
+python train_fgsm_at_cifar10_TPAP.py
+````
+<br />与Trades、MART方法结合时，需要在文件中修改训练的损失函数。
+<br />When combined with the Trades, MART method, the loss function for training needs to be modified in the file.
+<br />
+<br />我们提供了PGD对抗训练的代码，运行：
+<br />We provide code for PGD adversarial training that runs:
+````
+python train_pgd_at_cifar10.py
+````
+<br />
+<br />我们提供了TPAP在其它攻击方法下的测试代码，运行：
+<br />We provide test code for TPAP running under other attack methods:
+````
+python TEST_other_attack.py
+````
+### Results
+<br />参考文章中提供的结果：
+<br />Refer to the results provided in the article, article link:
+````
+https://arxiv.org/abs/2403.11448
+````
+## Contact
+<br />If you have any problem about our code, feel free to contact us.
+<br />**Lei Zhang (leizhang@cqu.edu.cn)**
+<br />**LinYu Tang (linyutang@cqu.edu.cn or 2367300330@qq.com)**
+<br />or describe it in Issues.
+## Citation
+````
+@article{tang2024robust,
+  title={Robust Overfitting Does Matter: Test-Time Adversarial Purification With FGSM},
+  author={Tang, Linyu and Zhang, Lei},
+  journal={arXiv preprint arXiv:2403.11448},
+  year={2024}
+}
 ````
