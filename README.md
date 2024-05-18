@@ -34,14 +34,16 @@ python val_data.py
 <br />Install your own working environment python+pytorch+torchvision in linux environment.
 
 <br />**1、创建环境**
-<br />**1. Create environment**
+<br />**Create environment**
+<br />
 <br />在linux终端输入： 
 <br />Type in the linux terminal:
 ````
 conda create -n tly18 python=3.8.13
 ````
 <br />**2、安装部署**
-<br />**2. Deployment**
+<br />**Deployment**
+<br />
 + 进入pytorch官网 https://pytorch.org/get-started/previous-versions/ 确定安装版本。
 <br />Go to the pytorch website https://pytorch.org/get-started/previous-versions/ to determine the version to install.
 
@@ -52,7 +54,8 @@ conda create -n tly18 python=3.8.13
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.2 -c pytorch
 ````
 <br />**3、安装攻击库**
-<br />**3. Installation of attack libraries**
+<br />**Installation of attack libraries**
+<br />
 <br />在linux终端输入： 
 <br />Type in the linux terminal:
 ```
