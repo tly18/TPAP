@@ -33,6 +33,7 @@ python val_data.py
 <br />**1、创建环境**
 <br />**1. Create environment**
 <br />在linux终端输入： 
+<br />Type in the linux terminal:
 ````
 conda create -n tly18 python=3.8.13
 ````
@@ -40,7 +41,9 @@ conda create -n tly18 python=3.8.13
 <br />**2. Deployment**
 <br />进入pytorch官网 https://pytorch.org/get-started/previous-versions/ 确定安装版本。
 <br />Go to the pytorch website https://pytorch.org/get-started/previous-versions/ to determine the version to install.
-<br />在linux终端输入： 
+<br />
+<br />在linux终端输入：
+<br />Type in the linux terminal:
 ````
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.2 -c pytorch
 ````
@@ -48,6 +51,7 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.
 <br />**3、安装攻击库**
 <br />**3. Installation of attack libraries**
 <br />在linux终端输入： 
+<br /><br />Type in the linux terminal:
 ````
 pip install torchattacks
 pip install advertorch=0.2.3 -i https://pypi.tuna.tsinghua.edu.cn/simple/
