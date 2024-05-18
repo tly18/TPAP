@@ -47,7 +47,6 @@ conda create -n tly18 python=3.8.13
 ````
 conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.2 -c pytorch
 ````
-<br />
 <br />**3、安装攻击库**
 <br />**3. Installation of attack libraries**
 <br />在linux终端输入： 
