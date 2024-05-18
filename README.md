@@ -54,7 +54,7 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.
 <br /><br />Type in the linux terminal:
 ````
 pip install torchattacks
-pip install advertorch=0.2.3 -i text(https://pypi.tuna.tsinghua.edu.cn/simple/)
+pip install advertorch=0.2.3 -i https://<span><span>pypi.tuna.tsinghua.edu.cn/simple/
 ````
 
 ### Instructions for the use of FWA
@@ -67,8 +67,10 @@ https://github.com/tly18/TPAP/blob/main/FWA/README.md
 ### Train and Test
 <br />我们提供了CIFAR-10、CIFAR-100、SVHN、TinyImageNet四个数据集的TPAP训练方法。
 <br />We provide TPAP training methods for four datasets, CIFAR-10, CIFAR-100, SVHN, and TinyImageNet.
+<br />
 <br />除CIFAR-10在./TPAP目录运行外，CIFAR-100、SVHN、TinyImageNet数据集需要进入各自的目录进行训练。
 <br />With the exception of CIFAR-10 which is run in the . /TPAP directory to run, the CIFAR-100, SVHN, and TinyImageNet datasets require access to their respective directories for training.
+<br />
 <br />例如，训练CIFAR-10：
 <br />For example, training CIFAR-10:
 ````
