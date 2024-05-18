@@ -4,6 +4,7 @@
 <br />Here's the code for the article, written primarily in PyTorch.
 ## Usage
 ### Data Preparation
+
 ### Environment Configuration
 <br />Pytorch 环境包括 python 3.8.13、pytorch 1.7.1、CUDA 9.2、torchvision 0.8.2、advertorch 0.2.3、torchattacks 3.3.0 和 matplotlib 3.2.2。
 <br />The pytorch environment includes python 3.8.13, pytorch 1.7.1, CUDA 9.2, torchvision 0.8.2, advertorch 0.2.3, torchattacks 3.3.0, matplotlib 3.2.2.
@@ -34,4 +35,10 @@ conda install pytorch==1.7.1 torchvision==0.8.2 torchaudio==0.7.2 cudatoolkit=9.
 ````
 pip install torchattacks
 pip install advertorch=0.2.3 -i https://pypi.tuna.tsinghua.edu.cn/simple/
+````
+### Instructions for the use of FWA
+<br />参考FWA方法的使用说明，网址链接如下：
+<br />Refer to the FWA method for instructions on how to use the URL link below:
+````
+https://github.com/tly18/TPAP/blob/main/FWA/README.md
 ````
